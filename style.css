@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
     url("assets/bg-1.jpg");
   background-size: cover;
   background-position: center 70%;
@@ -35,10 +35,16 @@ header {
   border-radius: 50%;
   background-color: var(--light);
   margin: auto;
+  overflow: hidden;
 }
 
 .user-name {
   margin-bottom: 0px;
+}
+
+.user-avatar {
+  width: 100%;
+  margin: auto;
 }
 
 .location-container {
